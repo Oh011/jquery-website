@@ -1,0 +1,266 @@
+
+
+
+:root{
+
+    --bg-c1:rgba(214, 46, 51, 0.6);
+    --bg-c2:#111111;
+    --bg-c3:#E68285;
+}
+
+
+.bg-c2{
+
+    background-color: var(--bg-c2);
+   
+}
+
+
+
+.toggle{
+
+    cursor: pointer;
+    background-color: var(--bg-c3);
+}
+
+.Home{
+
+    height: 660px;
+    background-image: linear-gradient(var(--bg-c1),var(--bg-c1)) ,url('../imgs/events-heavenly-header.jpg') ;
+    position: relative;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    overflow: auto;
+}
+
+
+.count-container{
+
+    height: 330px;
+    background-image: linear-gradient(var(--bg-c1),var(--bg-c1)) ,url('../imgs/invitation-2508607__340.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin-bottom: 60px; */
+
+
+}
+.header-h2{
+
+    font-size: 60px;
+    margin-top: 200px;
+}
+
+
+.side-bar{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+   
+    overflow-x: hidden;
+    padding-top: 60px;
+ 
+
+}
+
+
+.side-bar a{
+
+
+
+
+
+    padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        font-size: 25px;
+       
+        /* display: block; */
+        transition: 0.3s;
+        color: white;
+        text-wrap: nowrap;
+        transition: all 0.5s ease;
+    
+}
+
+.side-bar a:hover{
+
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 70px;
+    margin-left: 54px;
+    padding-top: 20px;
+}
+/* a.closebtn{
+    font-size: 70px;
+
+
+} */
+
+.openNav{
+
+
+    padding-left: 16px;
+
+}
+
+.scroller{
+
+
+
+    margin: 25px auto;
+
+}
+
+.scroller h3{
+
+    color: white;
+    margin: 0px;
+}
+
+.inner{
+
+    background-color: #CCCCCC;
+    padding: 5px;
+}
+
+
+.time{
+
+
+
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    border: solid white 1px;
+}
+.time{
+
+    padding: 50px 0px;
+  
+}
+.container {
+
+    padding: 100px 0px;
+}
+
+.count-container  .row{
+
+    /* margin-right: 50px;
+    margin-left: 50px; */
+}
+
+
+.col-3{
+
+    padding: 0px 15px !important;
+}
+
+.contact-us{
+
+    margin-top: 100px;
+}
+
+
+
+.contact-us .container{
+
+
+    padding: 100px 0px;
+
+
+}
+
+.contact-us .conatct-top h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-us .conatct-top p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.icon-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid #777777;
+    width: 40px;
+    height: 40px;
+
+  
+    cursor: pointer;
+    text-align: center;
+    color: #777777;
+}
+.icon-cont:hover{
+
+    background-color: #D62E33;
+    color: white;
+}
+
+.text-area{
+
+
+    height: 200px;
+}
+
+.mid-container{
+
+    color: 
+    RGB(119, 119, 119);
+}
+
+.conatct-info{
+
+    color:RGB(119, 119, 119)
+}
+.btn{
+
+    background-color: #D62E33;
+    color: white;
+
+}
+
+
+.btn:hover{
+
+    background-color: #D62E33;
+    color:white
+}
+
+.info-h{
+
+    font-size: 18px;
+    font-weight: 900;
+    color: 
+    RGB(68, 68, 68);
+}
+
+input::placeholder{
+
+    color: #777;
+}
+
+#num-remain {
+    font-size: 20px;
+    color: #D62E33;
+}
